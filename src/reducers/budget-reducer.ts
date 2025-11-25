@@ -6,7 +6,7 @@ export type BudgetState = {
     budget: number
 }
 
-const initialState: BudgetState = {
+export const initialState: BudgetState = {
     budget: 0,
 }
 
